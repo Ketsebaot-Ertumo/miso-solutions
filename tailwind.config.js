@@ -10,6 +10,9 @@ module.exports = {
       },
       backgroundImage: {
         'home': 'url(images/home.jpeg)',
+        'contact-us': 'url(images/contact-us.jpeg)',
+        'about': 'url(images/about.jpeg)',
+        'contact': 'url(images/contact.jpeg)',
       },
       fontFamily: {
         'dm-serif-display': ['DM Serif Display', 'serif'],

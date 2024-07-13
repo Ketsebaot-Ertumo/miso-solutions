@@ -41,15 +41,6 @@ const Menu = () => {
                     </Link>
                 </div>
 
-                <div 
-                    onMouseEnter={() => handleMenuHover('teamNav')}
-                    onMouseLeave={() => handleMenuHover(null)}
-                >
-                    <Link to="/#team">
-                        <p className={`${(activeMenu === 'teamNav' || activeMenu === 'team') ? 'opacity-60' : 'text-black'} pb-3`}>Our Hive</p>
-                    </Link>
-                </div>
-
                 <div
                     onMouseEnter={() => handleMenuHover('servicesNav')}
                     onMouseLeave={() => handleMenuHover(null)}
@@ -58,26 +49,39 @@ const Menu = () => {
                     {activeMenu === 'servicesNav' && (
                     <div className="absolute bg-white shadow text-left p-4 rounded-lg">
                         <ul>
-                        <li className="hover:text-gray-500">
-                            <Link to="/services/#hard">
-                            <p>Hardware Maintenance</p>
-                            </Link>
-                        </li>
-                        <li className="hover:text-gray-500 pt-5">
-                            <Link to="/services/#soft">
-                            <p>Software Maintenance</p>
-                            </Link>
-                        </li>
-                        <li className="hover:text-gray-500 pt-5">
-                            <Link to="/services/#sells">
-                            <p>Sells</p>
-                            </Link>
-                        </li>
+                            <li className="hover:text-gray-500">
+                                <Link to="/#services">
+                                <p>Hardware Maintenance</p>
+                                </Link>
+                            </li>
+                            <li className="hover:text-gray-500 pt-5">
+                                <Link to="/#services">
+                                <p>Software Maintenance</p>
+                                </Link>
+                            </li>
+                            <li className="hover:text-gray-500 pt-5">
+                                <Link to="#services">
+                                <p>Device Sells</p>
+                                </Link>
+                            </li>
+                            <li className="hover:text-gray-500 pt-5">
+                                <Link to="/#services">
+                                <p>Consulting</p>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     )}
                 </div>
 
+                <div 
+                    onMouseEnter={() => handleMenuHover('teamNav')}
+                    onMouseLeave={() => handleMenuHover(null)}
+                >
+                    <Link to="/#team">
+                        <p className={`${(activeMenu === 'teamNav' || activeMenu === 'team') ? 'opacity-60' : 'text-black'} pb-3`}>Our Hive</p>
+                    </Link>
+                </div>
 
                 <div 
                     onMouseEnter={() => handleMenuHover('contactNav')}

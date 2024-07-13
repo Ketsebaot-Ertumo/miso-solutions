@@ -1,3 +1,58 @@
+import { Call, Mail, Telegram } from "@mui/icons-material";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
+
+export default function Contact(){
+    return(
+        <>
+            <Navbar/>
+
+            <div className="bg-contact bg-no-repeat bg-cover py-14 text-center font-roboto text-white py-[150px] md:py-[180px]">
+                <div className="absolute top-0 bg-black bg-opacity-50 w-full h-[47%] md:h-[60%] py-24 md:py-40">
+                    <div className="text-5xl font-[inter] font-bold text-white pb-5">Get In Touch</div>
+                    <div>Lorepsum lipsum loreplipsum lipsum Lorepsum Lorepsum.</div>
+                    <div>Lorepsum loreplipsum lipsum Lorepsum.</div>
+                </div>
+            </div>
+
+            <div className="flex overflow-x-auto scrollbar-hide gap-10 p-10 bg-gray-200 text-center px-10 sm:px-5 lg:px-60 font-roboto">
+                <div className="rounded-[18px] p-5 items-center shadow-xl bg-white">
+                    <Call />
+                    <div className="pt-5 w-[200px]">+251992228731</div>
+                    <div>This is my number.</div>
+                    <div>This is my number to contact.</div>
+                </div>
+
+                <div className="rounded-[18px] p-5 items-center shadow-xl bg-white">
+                    <Mail />
+                    <div className="pt-5 w-[200px]">misoabe1221@gmail.com</div>
+                    <div>This is my email.</div>
+                    <div>This is my email to contact.</div>
+                </div>
+
+                <div className="rounded-[18px] p-5 items-center shadow-xl bg-white">
+                    <Telegram />
+                    <div className="pt-5 text-blue-500 w-[200px]"><Link to='https://t.me/dndjdd/'>Click Here to Join</Link></div>
+                    <div>This is our channel.</div>
+                    <div>This is our channel to contact.</div>
+                </div>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.003927382069!2d37.781475773051405!3d7.35345371296662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17b227223eb89ed9%3A0x6de69dcbe5f558a!2z4Yqg4Ymj4YuuIOGKq-GNjA!5e0!3m2!1sen!2set!4v1720730905570!5m2!1sen!2set" width="100%" height="300" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Miso Solutions"></iframe>
+
+            <Footer />
+        </>
+    )
+}
+
+
+
+
+
+
+
+
 // import React, { useEffect, useState } from 'react';
 // import Navbar from '../components/Navbar';
 // // import contact from "../images/contact.png";

@@ -33,7 +33,7 @@ The Miso Solutions website is a showcase of software solutions for mobile and co
 
 # Usage
 
-1. Access the website locally by opening your web browser and navigating to http://localhost:3000.
+1. Access the website locally by opening your web browser and navigating to http://localhost:3000 or https://miso-solutions.vercel.app.
 2. Explore the different pages, view projects, and interact with the website's features.
 3. Provide feedback or report any issues by creating a new issue in this repository.
 

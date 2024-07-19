@@ -39,7 +39,7 @@ return (
               <Link to='/'>
                 <div className='flex items-center gap-5'>
                   <img src={logo} className="w-8 sm:w-10 sm:h-10 hover:text-gray-500" alt="logo" />
-                  <p className='hidden sm:flex'>Miso Solutions</p>
+                  <p className='hidden sm:flex'>MISO Solutions</p>
                 </div>
               </Link>
           
@@ -118,7 +118,7 @@ return (
                               <Link to="/#services">
                                 <MenuItem onClick={handleCloseServiceMenu}>
                                   <Typography textAlign="center">
-                                    <div className='hover:text-blue'>Device Sells</div>
+                                    <div className='hover:text-blue'>Iphone Unlock</div>
                                   </Typography>
                                 </MenuItem>
                               </Link>
@@ -126,7 +126,7 @@ return (
                               <Link to="/#services">
                                 <MenuItem onClick={handleCloseServiceMenu}>
                                   <Typography textAlign="center">
-                                    <div className='hover:text-blue'>Consulting</div>
+                                    <div className='hover:text-blue'>Device Sells</div>
                                   </Typography>
                                 </MenuItem>
                               </Link>
@@ -157,136 +157,3 @@ return (
       </>
     )
 }
-// export default Navbar;
-
-
-
-
-
-
-
-
-
-
-
-
-// import React, { useState } from 'react';
-// import { Link } from 'react-router-dom';
-// import logo from '../images/miso-new.png';
-// import { Close, Menu } from '@mui/icons-material';
-// import MenuNav from './Menu';
-// import { IconButton } from '@mui/material';
-
-
-// function Navbar() {
-
-//   const [activeMenu, setActiveMenu] = useState(null);
-//   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-//   const handleMenuHover = (menu) => {
-//     setActiveMenu(menu);
-//   };
-
-//   const handleNavMenu = () => {
-//     setIsMenuOpen(!isMenuOpen);
-//   };
-
-//   return (
-    
-//     // <div className={`flex justify-between items-center font-roboto px-5 sm:px-10 py-5 text-black fixed z-40 w-full h-[44px] md:h-[60px] ${scrolled ? 'bg-gray-300' : 'bg-transparent'}`}>
-//     <div className="font-roboto flex items-center justify-between px-5 sm:px-10 text-black fixed z-40 bg-gray-300 w-full h-[44px] md:h-[60px]">
-        
-//         <Link to='/'>
-//           <div className='flex items-center gap-5'>
-//             <img src={logo} className="w-10 h-10 hover:text-gray-500" alt="logo" />
-//             <p className='hidden sm:flex'>Miso Solutions</p>
-//           </div>
-//         </Link>
-
-//         <MenuNav />
-
-//         <div className="lg:hidden">
-
-//           <div
-//               className="pr-5"
-//               onClick={handleNavMenu}
-//             >
-//               <Menu className='lg:mb-3' />
-
-//           {(isMenuOpen) && (
-//             <div
-//               className="absolute bg-white shadow text-left rounded-lg p-3 h-screen ml-[-90px] w-full top-0"
-//              >
-//               <div className='mb-3 ml-[100px]'>
-//                   <IconButton
-//                         edge="start"
-//                         color="inherit"
-//                         onClick={handleNavMenu}
-//                         aria-label="close"
-//                       >
-//                         <Close className='black' />
-//                   </IconButton>
-//               </div>
-
-//                     <div
-//                         onMouseEnter={() => handleMenuHover('aboutNav')}
-//                         onMouseLeave={() => handleMenuHover(null)}
-//                       >
-//                         <p className={`${activeMenu === 'aboutNav' ? 'text-gray-500' : 'text-black'} pb-3`}>About</p>
-//                       </div>
-
-//                       <div
-//                           onMouseEnter={() => handleMenuHover('servicesNav')}
-//                           onMouseLeave={() => handleMenuHover(null)}
-//                         >
-//                           <p className={`${activeMenu === 'servicesNav' ? 'text-gray-500' : 'text-black'} pb-3`}>Services</p>
-//                           {activeMenu === 'servicesNav' && (
-//                             <div className="absolute bg-white shadow text-left p-4 rounded-lg ml-[-160px]">
-//                               <ul>
-//                                 <li className="hover:text-gray-500">
-//                                     <Link to="#services">
-//                                       <p>Hardware Maintenance</p>
-//                                     </Link>
-//                                 </li>
-//                                 <li className="hover:text-gray-500 pt-5">
-//                                     <Link to="/#services">
-//                                       <p>Software Maintenance</p>
-//                                     </Link>
-//                                 </li>
-//                                 <li className="hover:text-gray-500 pt-5">
-//                                     <Link to="/#services">
-//                                       <p>Sells</p>
-//                                     </Link>
-//                                 </li>
-//                               </ul>
-//                             </div>
-//                           )}
-//                   </div>
-
-//                   <div 
-//                     onMouseEnter={() => handleMenuHover('portfolioNav')}
-//                     onMouseLeave={() => handleMenuHover(null)}
-//                   >
-//                       <Link to="/portfolio"><p className={`${activeMenu === 'portfolioNav' ? 'text-gray-500' : 'text-black'} pb-3`}>Portfolio</p></Link>
-//                   </div>
-
-//                   <div 
-//                     onMouseEnter={() => handleMenuHover('contactNav')}
-//                     onMouseLeave={() => handleMenuHover(null)}
-//                   >
-//                       <Link to="/contact-us"><p className={`${activeMenu === 'contactNav' ? 'text-gray-500' : 'text-black'}`}>Contact Us</p></Link>
-//                   </div>
-
-//             </div>
-//             )}
-
-//         </div>
-//         </div>
-//         {/* </div> */}
-        
-//       </div>
-//   );
-// }
-
-// export default Navbar;
-

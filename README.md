@@ -1,10 +1,10 @@
 
-# Miso Solutions Website
+# MISO Solutions Website
 This repository contains the source code and documentation for the Lik Architects website.
 
 
 # Description
-The Miso Solutions website is a showcase of software solutions for mobile and computer. It provides information about us, and the services we have given.
+The MISO Solutions website is a showcase of software solutions for mobile and computer. It provides information about us, and the services we have given.
 
 
 # Features
@@ -40,4 +40,4 @@ The Miso Solutions website is a showcase of software solutions for mobile and co
 
 # Contact
 
-For any inquiries or questions regarding the Miso Solutions website, please contact us at ertumoketsebaot@gmail.com or ketsebaotertumo@gmail.com.
+For any inquiries or questions regarding the MISO Solutions website, please contact us at ertumoketsebaot@gmail.com or ketsebaotertumo@gmail.com.

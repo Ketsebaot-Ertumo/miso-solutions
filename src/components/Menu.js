@@ -61,12 +61,12 @@ const Menu = () => {
                             </li>
                             <li className="hover:text-gray-500 pt-5">
                                 <Link to="#services">
-                                <p>Device Sells</p>
+                                <p>Iphone Unlock</p>
                                 </Link>
                             </li>
                             <li className="hover:text-gray-500 pt-5">
                                 <Link to="/#services">
-                                <p>Consulting</p>
+                                <p>Device Sells</p>
                                 </Link>
                             </li>
                         </ul>
